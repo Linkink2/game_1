@@ -19,7 +19,7 @@ function setup() {
     y: 300,
     w: 100,
     h: 50,
-    text: "Enter"
+    text: "Start"
   };
 
   a1Button = {
@@ -27,7 +27,7 @@ function setup() {
     y: 300,
     w: 100,
     h: 50,
-    text: "A1"
+    text: "Yes"
   };
 
   a2Button = {
@@ -35,7 +35,7 @@ function setup() {
     y: 300,
     w: 100,
     h: 50,
-    text: "A2"
+    text: "No"
   };
 
   b1Button = {
@@ -43,7 +43,7 @@ function setup() {
     y: 300,
     w: 100,
     h: 50,
-    text: "A1"
+    text: "No"
   };
 
   b2Button = {
@@ -51,7 +51,7 @@ function setup() {
     y: 300,
     w: 100,
     h: 50,
-    text: "A2"
+    text: "Yes"
   };
 }
 
@@ -145,7 +145,7 @@ function showScreen0() {
   fill("black");
   textSize(20);
   text(
-    "Welcome to screen 0. This is the home screen.",
+    "Welcome to a grand adventure, Les's go.",
     width / 2,
     height / 2 - 100
   );
@@ -157,7 +157,7 @@ function showScreen1() {
   fill("black");
   textSize(20);
   text(
-    "Welcome to screen 1. Make your first choice.",
+    "Do you want to go on the adventure?",
     width / 2,
     height / 2 - 100
   );
@@ -171,7 +171,7 @@ function showScreen2() {
   fill("black");
   textSize(20);
   text(
-    "Welcome to screen 2. Make your second choice.",
+    "Take the magic powder?",
     width / 2,
     height / 2 - 100
   );
@@ -186,7 +186,8 @@ function showScreen3() {
   fill("black");
   textSize(20);
   text(
-    "Welcome to screen 3.",
+    "Even though you did not want to take the magic powder" + "\n you still took it" +
+    "\n\n Bad Ending",
     width / 2,
     height / 2 - 100
   );
@@ -198,7 +199,7 @@ function showScreen4() {
   fill("black");
   textSize(20);
   text(
-    "Bad Ending",
+    "You got enough power to kill the demon queen" + "\n\n Bad Ending",
     width / 2,
     height / 2 - 100
   );
@@ -210,7 +211,8 @@ function showScreen5() {
   fill("black");
   textSize(20);
   text(
-    "Welcome to screen 5. End point",
+    "You stay in your boring life and marry the person of your dreams." +
+    "\n \n Good Ending.",
     width / 2,
     height / 2 - 100
   );
